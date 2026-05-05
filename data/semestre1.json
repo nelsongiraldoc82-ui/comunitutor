@@ -1,0 +1,529 @@
+[
+  {
+    "id": "lectura-escritura-1",
+    "nombre": "Lectura, escritura y oralidad 1: La palabra que hace falta",
+    "creditos": 2,
+    "temas": [
+      {
+        "id": 1,
+        "titulo": "Introducción al lenguaje universitario",
+        "descripcion": "Transformación epistemológica y rigor discursivo.",
+        "material_texto": "Ingresar a la educación superior no implica simplemente un cambio de entorno, sino una ruptura epistemológica con el saber escolar. En el colegio, el estudiante es un receptor de verdades cerradas; en la universidad, se convierte en un sujeto productor de sentido.\n\nEl lenguaje universitario no es una jerga oscura, sino un registro discursivo propio de la comunidad académica. Su fundamento es la argumentación rigurosa: toda afirmación debe estar sustentada en evidencia empírica o en diálogo con autores autorizados. Aquí, la opinión cede ante la postura crítica, y la memorización es reemplazada por la capacidad de problematizar la realidad. Escribir en la universidad es intervenir en una conversación intelectual que comenzó mucho antes de que llegáramos.",
+        "recursos": [
+          {"tipo": "articulo", "url": "https://es.wikipedia.org/wiki/Comunidad_acad%C3%A9mica", "titulo": "Concepto de Comunidad Académica"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "La diferencia fundamental entre la escritura escolar y la académica radica en:",
+            "opciones": ["La extensión del texto y la caligrafía", "La capacidad de argumentar basándose en un interlocutor experto y fuentes válidas", "El uso de vocabulario complejo sin sentido", "La copia textual de libros"],
+            "correcta": 1,
+            "explicacion": "La escritura académica se distingue por la legitimidad de sus fuentes y la estructura argumentativa, no por la complejidad superficial."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Comprensión Lectora: Hermenéutica y Niveles de Sentido",
+        "descripcion": "De la decodificación a la interpretación crítica.",
+        "material_texto": "Leer en la universidad es un ejercicio hermenéutico. No basta con el nivel literal (lo que el texto dice); es necesario acceder al nivel inferencial (lo que el texto sugiere mediante presuposiciones) y, crucialmente, al nivel crítico-intertextual, donde el lector contrasta el texto con otros discursos y descubre su polifonía (la presencia de múltiples voces en un enunciado).\n\nUn comunicador social debe aprender a leer los silencios del texto: ¿Qué se omite? ¿Qué sujeto está ausente? La lectura es, ante todo, una práctica de poder y resistencia.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=HRFPp9e2UsY", "titulo": "Niveles de lectura y hermenéutica"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Si en una noticia sobre economía se cita solo a banqueros y no a trabajadores, el lector crítico detecta una falla en:",
+            "opciones": ["La ortografía", "La coherencia", "La polifonía y representatividad de las voces", "El nivel literal"],
+            "correcta": 2,
+            "explicacion": "La polifonía se refiere a las voces que componen el texto. La ausencia de una voz (trabajadores) revela un sesgo ideológico."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Géneros discursivos académicos",
+        "descripcion": "Contexto de producción, circulación y legitimación.",
+        "material_texto": "La academia no produce textos 'sueltos', sino géneros que responden a reglas específicas de circulación. El artículo de investigación, el estado del arte y el ensayo argumentativo se diferencian por su intención comunicativa y su estructura.\n\nEs vital analizar el contexto de producción: ¿Quién es el enunciador? ¿Cuál es su etos? ¿En qué comunidad discursiva se inserta? Un texto cambia de sentido si se publica en un blog personal o en una revista indexada. La circulación define la legitimidad del saber.",
+        "recursos": [
+          {"tipo": "articulo", "url": "https://es.wikipedia.org/wiki/G%C3%A9nero_discursivo", "titulo": "Teoría de los Géneros Discursivos"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Un 'Estado del Arte' se diferencia de una opinión editorial porque:",
+            "opciones": ["Es más corto", "Se basa en una revisión sistemática de la literatura existente", "Se publica en redes sociales", "No requiere citación"],
+            "correcta": 1,
+            "explicacion": "El Estado del Arte es un género académico de revisión bibliográfica que mapea el conocimiento actual sobre un tema."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "Argumentación y Falacias",
+        "descripcion": "Lógica informal y pensamiento crítico aplicado.",
+        "material_texto": "Argumentar no es pelear ni persuadir a cualquier costo. Es un acto racional de dar razones para sostener una tesis. El comunicador debe identificar falacias lógicas (errores de razonamiento) que deforman el debate público.\n\nEjemplos comunes: Ad Hominem (atacar al oponente, no su idea), Falsa Causalidad (confundir correlación con causa), o Ad Populum (creer algo porque la mayoría lo cree). Una argumentación sólida exige coherencia interna y solidez en las premisas.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=Ohzvu-nkM0g", "titulo": "Falacias argumentativas"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "En un debate político, un candidato dice: 'Mi rival no puede hablar de economía porque tuvo un divorcio escandaloso'. Esto es una falacia:",
+            "opciones": ["Ad Populum", "Ad Hominem", "Causal", "Post Hoc"],
+            "correcta": 1,
+            "explicacion": "Ataca la vida personal (hominem) en lugar de refutar las propuestas económicas del rival."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "titulo": "Escritura Académica: Intertextualidad y Normativa APA",
+        "descripcion": "La ética de la citación y la construcción del texto propio.",
+        "material_texto": "Ningún texto académico nace de la nada; es un tejido de citas y referencias. La intertextualidad es el diálogo explícito con otros autores. El uso de normas (como APA o Chicago) no es un mero trámite burocrático, sino una práctica ética de reconocimiento.\n\nEl plagio no es solo copiar y pegar; es el robo de la autoría intelectual. Un buen escritor académico integra la voz ajena en su propia voz (estilo indirecto, paráfrasis) sin perder el hilo conductor de su propia tesis.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=qXm9d_sQlFk", "titulo": "Ética y Normas APA"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "La 'paráfrasis' académica correcta consiste en:",
+            "opciones": ["Cambiar una o dos palabras del original", "Copiar el texto entre comillas", "Reescribir la idea ajena con palabras propias citando la fuente", "Leer el texto y olvidarlo"],
+            "correcta": 2,
+            "explicacion": "Parafrasear implica reelaborar la idea sintácticamente, pero la autoría intelectual (la fuente) debe ser citada siempre."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "titulo": "Oralidad y Retórica Contemporánea",
+        "descripcion": "El cuerpo, la voz y la persuasión.",
+        "material_texto": "La comunicación oral en la universidad supera la mera exposición. Se basa en la retórica: el arte de convencer mediante el ethos (credibilidad del orador), el pathos (emoción de la audiencia) y el logos (razonamiento).\n\nLa comunicación no verbal (kinesis y proxémica) constituye gran parte del mensaje. Un comunicador debe tener coherencia entre su discurso verbal y su corporalidad. La escucha activa, a menudo ignorada, es la competencia base: implica descodificar al otro desde la empatía, no desde la réplica inmediata.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=VjV98Nl_veQ", "titulo": "Retórica y Comunicación No Verbal"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Según la retórica clásica, el 'Ethos' se refiere a:",
+            "opciones": ["La apelación a las emociones del público", "La estructura lógica del argumento", "La credibilidad y carácter del orador", "El volumen de la voz"],
+            "correcta": 2,
+            "explicacion": "El Ethos es la imagen que el orador proyecta para generar confianza y autoridad en la audiencia."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "titulo": "La palabra que hace falta: Ética y Construcción Social",
+        "descripcion": "Responsabilidad del comunicador en la sociedad.",
+        "material_texto": "El título de este curso apela a una ética de la palabra. El lenguaje no es inocente; la palabra nombra el mundo y por tanto lo crea. En un contexto de posverdad y desinformación, el comunicador tiene la responsabilidad de restituir el valor de la palabra verdadera.\n\n¿Qué palabras faltan en los medios? Las voces de las minorías, los relatos de paz, la memoria histórica. La comunicación social es, en esencia, una praxis política de construcción de comunidad y ciudadanía.",
+        "recursos": [
+          {"tipo": "articulo", "url": "https://elpais.com/america/opinion/2021-10-30/el-poder-de-las-palabras.html", "titulo": "Poder y Ética de las palabras"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "El concepto de 'La palabra que hace falta' invita a reflexionar sobre:",
+            "opciones": ["La falta de diccionarios", "La responsabilidad política y ética de lo que decimos y omitimos", "La gramática incorrecta", "El bloqueo del escritor"],
+            "correcta": 1,
+            "explicacion": "Se refiere a la ausencia de ciertos discursos legítimos en el espacio público y la responsabilidad del comunicador de darles voz."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "intro-vida-universitaria",
+    "nombre": "Introducción a la vida universitaria",
+    "creditos": 2,
+    "temas": [
+      {
+        "id": 1,
+        "titulo": "Autonomía y Gestión del Aprendizaje",
+        "descripcion": "Transición a la autogestión universitaria.",
+        "material_texto": "En la universidad el ritmo lo marca el estudiante. Autonomía implica: Auto-planificación, Auto-monitoreo y Auto-evaluación.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=YJzUdZbEzOE", "titulo": "Ser estudiante universitario hoy"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "La autonomía universitaria se refiere a:",
+            "opciones": ["No pedir ayuda a nadie", "Capacidad de autorregular el propio aprendizaje", "Asistir solo a las clases que me gustan", "Pagar la matrícula uno mismo"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Ética Académica y Plagio",
+        "descripcion": "Honestidad intelectual.",
+        "material_texto": "El plagio es el uso de ideas ajenas sin dar crédito. Tipos: Copiar y pegar, parafrasear sin citar.",
+        "recursos": [
+          {"tipo": "articulo", "url": "https://pla.gt/que-es-el-plagio", "titulo": "¿Qué es el plagio?"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Si reescribo una idea ajena con mis palabras pero no cito la fuente, ¿es plagio?",
+            "opciones": ["No, porque usé mis palabras", "Sí, es parafraseo sin citar", "Solo es plagio si copio textualmente"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Responsabilidad Social Universitaria",
+        "descripcion": "Rol de agente de cambio.",
+        "material_texto": "La formación profesional debe vincularse con las problemáticas del entorno.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=NcTLqYlSrjc", "titulo": "RSU"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "La RSU busca:",
+            "opciones": ["Que la universidad gane más dinero", "Vincular la formación con soluciones a problemas sociales", "Aumentar el número de estudiantes"],
+            "correcta": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "pensamiento-numerico",
+    "nombre": "Pensamiento numérico para la resolución de problemas",
+    "creditos": 2,
+    "temas": [
+      {
+        "id": 1,
+        "titulo": "Estadística Descriptiva",
+        "descripcion": "Medidas de Tendencia Central.",
+        "material_texto": "Media (promedio), Mediana (valor central) y Moda. Dato clave: La media es sensible a valores extremos.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=HvDdalzEegQ", "titulo": "Media, Mediana y Moda"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "En una empresa, 9 empleados ganan $1 millón y el jefe gana $20 millones. ¿Por qué la media es engañosa?",
+            "opciones": ["Porque no cuenta al jefe", "Porque el valor extremo del jefe 'jala' el promedio hacia arriba", "Porque la moda es más alta"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Porcentajes y Variaciones",
+        "descripcion": "Cálculo aplicado a noticias.",
+        "material_texto": "Diferenciar 'puntos porcentuales' de 'porcentaje'. Si el desempleo sube del 10% al 12%, subió 2 puntos, pero 20% en términos relativos.",
+        "recursos": [
+          {"tipo": "articulo", "url": "https://www.bbva.com/es/sala-prensa/periodismo-de-datos-como-evitar-errores/", "titulo": "Evitar errores en datos"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Si el IVA sube del 16% al 19%, ¿cuál es el aumento porcentual real?",
+            "opciones": ["3%", "16%", "19%", "18.75%"],
+            "correcta": 3
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Lógica y Falacias",
+        "descripcion": "Razonamiento lógico.",
+        "material_texto": "Identificar falacias lógicas (ej. Ad Hominem: atacar a la persona).",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=Ohzvu-nkM0g", "titulo": "Falacias lógicas"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "'Tú no puedes opinar de economía porque no eres economista' es una falacia de tipo:",
+            "opciones": ["Generalización apresurada", "Ad Hominem", "Falsa causalidad"],
+            "correcta": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "comunicacion-estrategica",
+    "nombre": "Comunicación Estratégica",
+    "creditos": 2,
+    "temas": [
+      {
+        "id": 1,
+        "titulo": "Modelos de Comunicación",
+        "descripcion": "Lineal vs Circular.",
+        "material_texto": "Modelo Lineal (Shannon) vs Modelo Circular (Schramm) que incluye Feedback.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=Hyb0np6Fd8A", "titulo": "Modelos de comunicación"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "¿Qué elemento introduce Schramm que Shannon no tenía?",
+            "opciones": ["El Canal", "El Ruido", "La Retroalimentación", "El Código"],
+            "correcta": 2
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Funciones del Lenguaje",
+        "descripcion": "Intención del mensaje.",
+        "material_texto": "6 Funciones: Referencial, Emotiva, Conativa, Fática, Metalingüística, Poética.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=jzHM4_N_LaU", "titulo": "Funciones del lenguaje"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "El mensaje '¡Compre ya!' es un ejemplo de la función:",
+            "opciones": ["Referencial", "Poética", "Conativa", "Emotiva"],
+            "correcta": 2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Públicos Objetivo",
+        "descripcion": "Segmentación.",
+        "material_texto": "Segmentación: Demográfica, Geográfica, Psicográfica.",
+        "recursos": [
+          {"tipo": "articulo", "url": "https://www.hubspot.es/blog/que-es-publico-objetivo", "titulo": "Definición de Target"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Dirigir un mensaje a 'personas preocupadas por el medio ambiente' es segmentación:",
+            "opciones": ["Demográfica", "Geográfica", "Psicográfica", "Conductual"],
+            "correcta": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "diseno-visual",
+    "nombre": "Diseño visual",
+    "creditos": 2,
+    "temas": [
+      {
+        "id": 1,
+        "titulo": "Teoría del Color",
+        "descripcion": "Psicología del color.",
+        "material_texto": "Cálidos (emoción) vs Fríos (calma). Contraste para legibilidad.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=UdWg-3n-0m0", "titulo": "Psicología del Color"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Para un aviso de 'Peligro', el color más adecuado es:",
+            "opciones": ["Azul", "Verde", "Rojo", "Amarillo"],
+            "correcta": 2
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Tipografía",
+        "descripcion": "Serif vs Sans Serif.",
+        "material_texto": "Serif (clásicas, impresión) vs Sans Serif (modernas, web).",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=R5NvMzYbLlk", "titulo": "Tipos de fuentes"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Para un texto largo en revista impresa, se recomienda una fuente:",
+            "opciones": ["Script", "Decorativa", "Sans Serif", "Serif"],
+            "correcta": 3
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Principios de Gestalt",
+        "descripcion": "Percepción visual.",
+        "material_texto": "Figura-Fondo, Proximidad, Semejanza.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=WeGa8zOyxDY", "titulo": "Gestalt"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Agrupar elementos cercanos aplica la ley de:",
+            "opciones": ["Cierre", "Proximidad", "Contraste"],
+            "correcta": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fotografia",
+    "nombre": "Fotografía",
+    "creditos": 2,
+    "temas": [
+      {
+        "id": 1,
+        "titulo": "Triángulo de Exposición",
+        "descripcion": "ISO, Diafragma, Obturador.",
+        "material_texto": "ISO (sensibilidad), Diafragma (profundidad de campo), Obturador (movimiento).",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=F8DbWzM4DNU", "titulo": "Exposición"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Para efecto 'seda' en agua, necesito velocidad:",
+            "opciones": ["Muy rápida", "Lenta", "ISO alto"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Composición",
+        "descripcion": "Regla de los Tercios.",
+        "material_texto": "Sujeto en intersecciones, no en el centro.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=AzZJsxiN-sg", "titulo": "Regla de los Tercios"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Colocar al sujeto en el centro genera una imagen:",
+            "opciones": ["Más dinámica", "Más estática", "Más profesional"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Óptica",
+        "descripcion": "Distancia focal.",
+        "material_texto": "Angular (paisaje), Normal (ojo humano), Teleobjetivo (retrato).",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=rRwBfYkeYrA", "titulo": "Lentes"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Para retrato sin distorsión, el lente ideal es:",
+            "opciones": ["Angular", "Teleobjetivo", "Ojo de pez"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "Formatos",
+        "descripcion": "RAW vs JPG.",
+        "material_texto": "RAW (crudo, editable) vs JPG (comprimido).",
+        "recursos": [
+          {"tipo": "articulo", "url": "https://www.xatakafoto.com/trucos-y-tutoriales/raw-vs-jpg-diferencias-cual-elegir", "titulo": "RAW vs JPG"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Si la foto salió oscura y necesitas aclararla, ¿qué formato es mejor?",
+            "opciones": ["JPG", "RAW", "PNG"],
+            "correcta": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "teorias-campos",
+    "nombre": "Teorías y campos de la comunicación",
+    "creditos": 2,
+    "temas": [
+      {
+        "id": 1,
+        "titulo": "Escuelas Clásicas",
+        "descripcion": "Frankfurt vs Funcionalismo.",
+        "material_texto": "Frankfurt (Crítica, dominación) vs Funcionalismo (Efectos prácticos).",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=dXy5_nj-LoQ", "titulo": "Escuela de Frankfurt"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Frankfurt critica la 'Industria Cultural' porque:",
+            "opciones": ["Fomenta la creatividad", "Homogeniza el pensamiento", "Es muy educativa"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Agenda Setting",
+        "descripcion": "Poder de los medios.",
+        "material_texto": "Los medios dicen en qué pensar.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=8JXfVQhBjOo", "titulo": "Agenda Setting"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Un medio no cubre una huelga. Es:",
+            "opciones": ["Framing", "Blocking / Omisión", "Priming"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "titulo": "Framing",
+        "descripcion": "Encuadre de la información.",
+        "material_texto": "Cómo se presenta la noticia.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=xdGl9DFWtmk", "titulo": "Framing"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "'Terrorista' vs 'Insurgente' es un ejemplo de:",
+            "opciones": ["Agenda Setting", "Framing", "Magic Bullet"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "titulo": "Teoría Hipodérmica",
+        "descripcion": "Bala mágica.",
+        "material_texto": "Mensaje inyectado en receptor pasivo. Obsoleta.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=pWfBkLRGmj0", "titulo": "Teoría Hipodérmica"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Es obsoleta porque asume que el público es:",
+            "opciones": ["Activo", "Pasivo", "Inteligente"],
+            "correcta": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tecnica-herramientas-1",
+    "nombre": "Técnica y herramientas 1",
+    "creditos": 1,
+    "temas": [
+      {
+        "id": 1,
+        "titulo": "Búsqueda Avanzada",
+        "descripcion": "Google Académico.",
+        "material_texto": "Operadores booleanos, comillas.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=JV_-6anBjOo", "titulo": "Google Académico"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "Para frase exacta debo escribirla:",
+            "opciones": ["Sin comillas", "Entre comillas", "Con guion"],
+            "correcta": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "titulo": "Ofimática",
+        "descripcion": "Excel para periodistas.",
+        "material_texto": "Tablas dinámicas para resumir datos.",
+        "recursos": [
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=Vn_GVwzLzXk", "titulo": "Excel datos"}
+        ],
+        "quiz": [
+          {
+            "pregunta": "¿Qué herramienta resume datos automáticamente?",
+            "opciones": ["Filtro", "Formato condicional", "Tabla Dinámica"],
+            "correcta": 2
+          }
+        ]
+      }
+    ]
+  }
+]
