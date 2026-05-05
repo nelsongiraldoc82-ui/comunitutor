@@ -2,17 +2,47 @@
 import { useState } from "react";
 import materias from "@/data/semestre1.json";
 
-// --- COMPONENTE DEL QUIZ (VENTANA EMERGENTE) ---
-function QuizModal({ quiz, onClose }) {
+// --- DEFINICIÓN DE TIPOS (INTERFACES) ---
+interface Pregunta {
+  pregunta: string;
+  opciones: string[];
+  correcta: number;
+  explicacion?: string;
+}
+
+interface Recurso {
+  tipo: string;
+  url: string;
+  titulo: string;
+}
+
+interface Tema {
+  id: number;
+  titulo: string;
+  descripcion: string;
+  material_texto: string;
+  recursos: Recurso[];
+  quiz: Pregunta[];
+}
+
+interface Asignatura {
+  id: string;
+  nombre: string;
+  creditos: number;
+  temas: Tema[];
+}
+
+// --- COMPONENTE DEL QUIZ ---
+function QuizModal({ quiz, onClose }: { quiz: Pregunta[]; onClose: () => void }) {
   const [indicePregunta, setIndicePregunta] = useState(0);
-  const [seleccionado, setSeleccionado] = useState(null);
+  const [seleccionado, setSeleccionado] = useState<number | null>(null);
   const [puntaje, setPuntaje] = useState(0);
   const [mostrarResultado, setMostrarResultado] = useState(false);
 
   const preguntaActual = quiz[indicePregunta];
 
-  const manejarRespuesta = (index) => {
-    if (seleccionado !== null) return; // Evitar cambiar respuesta
+  const manejarRespuesta = (index: number) => {
+    if (seleccionado !== null) return;
     setSeleccionado(index);
     if (index === preguntaActual.correcta) {
       setPuntaje(puntaje + 1);
@@ -91,13 +121,11 @@ function QuizModal({ quiz, onClose }) {
 
 // --- COMPONENTE PRINCIPAL ---
 export default function Home() {
-  const [activeView, setActiveView] = useState('home'); // 'home' o id de asignatura
-  const [modal, setModal] = useState({ type: null, data: null });
-  
-  // Estado para el menú desplegable (simulamos semestres, hoy solo tenemos datos del 1)
+  const [activeView, setActiveView] = useState<string>('home');
+  const [modal, setModal] = useState<{ type: string; data: unknown } | null>(null);
   const [isOpen, setIsOpen] = useState(true);
 
-  const openVideo = (url) => {
+  const openVideo = (url: string) => {
     let embedUrl = url;
     if (url.includes("watch?v=")) {
       embedUrl = url.replace("watch?v=", "embed/");
@@ -105,37 +133,33 @@ export default function Home() {
     setModal({ type: 'video', data: embedUrl });
   };
 
-  const openRead = (texto, recursos) => {
+  const openRead = (texto: string, recursos: Recurso[]) => {
     setModal({ type: 'read', data: { texto, recursos } });
   };
 
-  const openQuiz = (quiz) => {
+  const openQuiz = (quiz: Pregunta[]) => {
     setModal({ type: 'quiz', data: quiz });
   };
 
   const closeModal = () => {
-    setModal({ type: null, data: null });
+    setModal(null);
   };
 
-  // Encontrar la asignatura activa
-  const selectedSubject = materias.find(m => m.id === activeView);
+  const selectedSubject = (materias as Asignatura[]).find(m => m.id === activeView);
 
   return (
     <div className="flex min-h-screen bg-slate-50 font-sans text-slate-800">
       
-      {/* --- SIDEBAR (MENÚ LATERAL) --- */}
+      {/* --- SIDEBAR --- */}
       <aside className="w-72 bg-white border-r border-slate-200 flex flex-col fixed h-full z-40 shadow-sm">
-        {/* Logo y Usuario */}
         <div className="p-6 border-b border-slate-100">
           <h1 className="text-xl font-bold text-blue-600 tracking-tight">ComuniTutor</h1>
           <p className="text-sm text-slate-400 mt-1">Bienvenida, Gaby 👋</p>
         </div>
 
-        {/* Menú de Navegación */}
         <nav className="flex-1 overflow-y-auto p-4">
           <div className="space-y-2">
             
-            {/* Botón Inicio */}
             <button 
               onClick={() => setActiveView('home')}
               className={`w-full text-left px-4 py-2.5 rounded-lg transition-all font-medium flex items-center gap-3 ${activeView === 'home' ? 'bg-blue-50 text-blue-600' : 'text-slate-500 hover:bg-slate-50'}`}
@@ -143,7 +167,6 @@ export default function Home() {
               <span>🏠</span> Inicio
             </button>
 
-            {/* Semestre 1 (Desplegable) */}
             <div className="pt-4">
               <button 
                 onClick={() => setIsOpen(!isOpen)}
@@ -155,7 +178,7 @@ export default function Home() {
               
               {isOpen && (
                 <div className="mt-2 space-y-1 border-l-2 border-slate-100 ml-3 pl-3">
-                  {materias.map((asig) => (
+                  {(materias as Asignatura[]).map((asig) => (
                     <button
                       key={asig.id}
                       onClick={() => setActiveView(asig.id)}
@@ -178,7 +201,6 @@ export default function Home() {
       {/* --- CONTENIDO PRINCIPAL --- */}
       <main className="flex-1 ml-72 p-8">
         
-        {/* VISTA DE INICIO (Dashboard) */}
         {activeView === 'home' && (
           <div className="max-w-3xl mx-auto pt-12">
             <div className="text-center mb-12">
@@ -199,7 +221,7 @@ export default function Home() {
 
             <h3 className="text-lg font-bold text-slate-800 mb-4">Tus asignaturas este semestre</h3>
             <div className="grid grid-cols-2 gap-4">
-              {materias.map((asig) => (
+              {(materias as Asignatura[]).map((asig) => (
                 <div 
                   key={asig.id}
                   onClick={() => setActiveView(asig.id)}
@@ -213,7 +235,6 @@ export default function Home() {
           </div>
         )}
 
-        {/* VISTA DE ASIGNATURA SELECCIONADA */}
         {selectedSubject && (
           <div className="max-w-4xl mx-auto">
             <header className="mb-8">
@@ -241,7 +262,6 @@ export default function Home() {
                         <h3 className="font-bold text-lg text-slate-800 mb-1">{tema.titulo}</h3>
                         <p className="text-slate-500 text-sm mb-4 leading-relaxed">{tema.descripcion}</p>
                         
-                        {/* Botones de acción elegantes */}
                         <div className="flex flex-wrap gap-3">
                           <button 
                             onClick={() => openRead(tema.material_texto, tema.recursos)}
@@ -252,7 +272,7 @@ export default function Home() {
                           
                           {tema.recursos && tema.recursos.filter(r => r.tipo === 'video').length > 0 && (
                             <button 
-                              onClick={() => openVideo(tema.recursos.find(r => r.tipo === 'video').url)}
+                              onClick={() => openVideo(tema.recursos.find(r => r.tipo === 'video')?.url || '#')}
                               className="inline-flex items-center gap-2 bg-red-50 hover:bg-red-100 text-red-600 px-4 py-2 rounded-lg text-sm font-medium transition-colors"
                             >
                               <span>▶️</span> Ver video
@@ -278,20 +298,20 @@ export default function Home() {
         )}
       </main>
 
-      {/* --- MODALES (Misma lógica pero estilos mejorados) --- */}
+      {/* --- MODALES --- */}
       
-      {modal.type === 'read' && (
+      {modal?.type === 'read' && (
         <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-2xl p-8 max-w-2xl w-full max-h-[80vh] overflow-y-auto shadow-2xl relative animate-fade-in">
             <button onClick={closeModal} className="absolute top-4 right-4 text-gray-300 hover:text-gray-800 text-2xl transition-colors">&times;</button>
             <h2 className="text-2xl font-bold mb-4 text-slate-800">Apuntes de Clase</h2>
             <div className="prose text-slate-600 whitespace-pre-line mb-6 leading-relaxed">
-              {modal.data.texto}
+              {(modal.data as { texto: string }).texto}
             </div>
             <div className="border-t border-slate-100 pt-4 mt-4">
               <h4 className="font-semibold mb-3 text-sm text-slate-500 uppercase tracking-wide">Recursos adjuntos</h4>
               <ul className="space-y-2">
-                {modal.data.recursos.map((r, i) => (
+                {(modal.data as { recursos: Recurso[] }).recursos.map((r, i) => (
                   <li key={i}>
                     <a href={r.url} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 font-medium hover:underline flex items-center gap-2">
                       🔗 {r.titulo}
@@ -304,13 +324,13 @@ export default function Home() {
         </div>
       )}
 
-      {modal.type === 'video' && (
+      {modal?.type === 'video' && (
         <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 z-50">
           <div className="bg-slate-900 rounded-2xl p-1 w-full max-w-4xl shadow-2xl relative">
             <button onClick={closeModal} className="absolute -top-10 right-0 text-white/50 hover:text-white text-2xl font-light transition-colors">&times;</button>
             <div className="relative rounded-xl overflow-hidden" style={{ paddingBottom: '56.25%', height: 0 }}>
               <iframe 
-                src={modal.data} 
+                src={modal.data as string} 
                 className="absolute top-0 left-0 w-full h-full" 
                 frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -321,8 +341,8 @@ export default function Home() {
         </div>
       )}
 
-      {modal.type === 'quiz' && (
-        <QuizModal quiz={modal.data} onClose={closeModal} />
+      {modal?.type === 'quiz' && (
+        <QuizModal quiz={modal.data as Pregunta[]} onClose={closeModal} />
       )}
     </div>
   );
