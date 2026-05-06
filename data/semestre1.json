@@ -1,165 +1,117 @@
-﻿[
+[
   {
     "id": "lectura-escritura-1",
-    "nombre": "Lectura, escritura y oralidad 1: La palabra que hace falta",
+    "nombre": "Lectura, escritura y oralidad 1",
     "creditos": 2,
     "temas": [
       {
         "id": 1,
         "titulo": "Introducción al lenguaje universitario",
-        "descripcion": "Incorporación a la comunidad discursiva académica.",
-        "material_texto": "Ingresar a la universidad no solo implica nuevos contenidos, sino incorporarse a una comunidad discursiva con normas, géneros y prácticas comunicativas propias. El lenguaje universitario es una herramienta cognitiva: no solo comunica ideas, sino que construye conocimiento.",
-        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Introducción al lenguaje universitario.pdf",
+        "descripcion": "Incorporación a la comunidad académica.",
+        "material_texto": "Ingresar a la universidad implica incorporarse a una comunidad discursiva con normas propias.",
+        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1/Introducción.pdf",
         "actividades": [
-          { "pregunta": "1. Reescritura: Transforma en lenguaje académico la siguiente frase: «Hoy en día la gente usa mucho el móvil y eso es malo para estudiar.»" },
-          { "pregunta": "2. Análisis: Identifica tesis, argumentos y tipo de lenguaje en el siguiente texto: «El desarrollo de competencias digitales en estudiantes universitarios resulta fundamental…»" },
-          { "pregunta": "3. Debate: ¿El lenguaje académico limita la creatividad o la potencia? Argumenta tu posición." },
-          { "pregunta": "4. Producción breve: Escribe un párrafo (5–7 líneas) con 1 tesis clara, 2 conectores lógicos y lenguaje formal." }
+          { "pregunta": "1. Reescritura: Transforma a lenguaje académico." }
         ],
-        "recursos": [
-          {"tipo": "articulo", "url": "https://es.wikipedia.org/wiki/Comunidad_acad%C3%A9mica", "titulo": "Concepto de Comunidad Académica"}
-        ],
+        "recursos": [],
         "quiz": [
           {
-            "pregunta": "Según la introducción, el lenguaje universitario se define principalmente como:",
-            "opciones": ["Un conjunto de palabras difíciles", "Una herramienta cognitiva que construye conocimiento", "Una barrera para los nuevos estudiantes", "Un método de exclusión social"],
-            "correcta": 1,
-            "explicacion": "El texto afirma que el lenguaje universitario es una herramienta cognitiva."
+            "pregunta": "El lenguaje universitario:",
+            "opciones": ["Es difícil", "Construye conocimiento", "Es igual al escolar"],
+            "correcta": 1
           }
         ]
       },
       {
         "id": 2,
-        "titulo": "Comprensión Lectora: Hermenéutica y Niveles de Sentido",
-        "descripcion": "De la decodificación a la interpretación crítica.",
-        "material_texto": "La comprensión lectora en el ámbito universitario va mucho más allá de entender lo que dice un texto. Implica interpretar, analizar críticamente y construir sentido.",
-        "actividades": [
-          { "pregunta": "1. Identificación de niveles: Texto: «La educación moderna enfrenta desafíos derivados del avance tecnológico.» Identifica el nivel literal, inferencial y crítico." },
-          { "pregunta": "2. Análisis hermenéutico: ¿Cuál es la tesis? ¿Qué presupuestos implícitos contiene?" },
-          { "pregunta": "3. Debate: ¿La interpretación de un texto puede ser completamente objetiva?" },
-          { "pregunta": "4. Producción escrita: Escribe un párrafo interpretativo de 6-8 líneas." }
-        ],
-        "recursos": [
-          {"tipo": "video", "url": "https://www.youtube.com/watch?v=HRFPp9e2UsY", "titulo": "Niveles de lectura"}
-        ],
-        "quiz": [
-          {
-            "pregunta": "Si en una noticia se cita solo a banqueros, el lector crítico detecta una falla en:",
-            "opciones": ["La ortografía", "La coherencia", "La polifonía", "El nivel literal"],
-            "correcta": 2
-          }
-        ]
+        "titulo": "Comprensión Lectora",
+        "descripcion": "Interpretación crítica.",
+        "material_texto": "Leer implica interpretar y construir sentido.",
+        "actividades": [ { "pregunta": "1. Identifica niveles." } ],
+        "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ]
       },
       {
         "id": 3,
-        "titulo": "Géneros discursivos académicos",
-        "descripcion": "Contexto de producción y legitimación.",
-        "material_texto": "El conocimiento se comunica a través de formas discursivas específicas. Dominar estos géneros es fundamental para integrarse a la cultura académica.",
-        "actividades": [
-          { "pregunta": "1. Clasificación: Identifica el género del texto: 'El libro presenta una visión crítica...'" },
-          { "pregunta": "2. Análisis: ¿Cuál es el género y su propósito comunicativo?" },
-          { "pregunta": "3. Producción: Escribe un párrafo en formato de ensayo." },
-          { "pregunta": "4. Reflexión: ¿Todos los géneros permiten opinión?" }
-        ],
-        "recursos": [
-          {"tipo": "articulo", "url": "https://es.wikipedia.org/wiki/G%C3%A9nero_discursivo", "titulo": "Géneros discursivos"}
-        ],
-        "quiz": [
-          {
-            "pregunta": "Un 'Estado del Arte' se basa en:",
-            "opciones": ["Opiniones personales", "Revisión sistemática de literatura", "Noticias de internet"],
-            "correcta": 1
-          }
-        ]
+        "titulo": "Géneros discursivos",
+        "descripcion": "Contexto de producción.",
+        "material_texto": "El conocimiento se comunica en formas específicas.",
+        "actividades": [ { "pregunta": "1. Clasificación." } ],
+        "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ]
       },
       {
         "id": 4,
         "titulo": "Argumentación y Falacias",
-        "descripcion": "Estructura del argumento y errores de razonamiento.",
-        "material_texto": "Una guía esencial para el pensamiento crítico universitario.",
-        "actividades": [
-          { "pregunta": "Actividad 1: Identifica premisas y conclusión implícita: 'Todos los seres humanos necesitan educación. Juan es humano.'" },
-          { "pregunta": "Actividad 2: Detección de falacias." },
-          { "pregunta": "Actividad 3: Construye un argumento con tesis y premisas." },
-          { "pregunta": "Actividad 4: ¿Es posible argumentar sin persuadir?" }
-        ],
-        "recursos": [
-          {"tipo": "video", "url": "https://www.youtube.com/watch?v=Ohzvu-nkM0g", "titulo": "Falacias"}
-        ],
-        "quiz": [
-          {
-            "pregunta": "'Mi rival no puede hablar de economía porque se divorció' es una falacia:",
-            "opciones": ["Ad Populum", "Ad Hominem", "Causal"],
-            "correcta": 1
-          }
-        ]
+        "descripcion": "Pensamiento crítico.",
+        "material_texto": "Estructura del argumento.",
+        "actividades": [ { "pregunta": "1. Identifica falacias." } ],
+        "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ]
       },
       {
         "id": 5,
-        "titulo": "Escritura Académica: Intertextualidad y Normativa APA",
-        "descripcion": "Pilares de la producción académica.",
-        "material_texto": "Cómo dialogar con el conocimiento existente y citar correctamente.",
-        "actividades": [
-          { "pregunta": "Actividad 1: Identifica si es cita directa, paráfrasis o resumen." },
-          { "pregunta": "Actividad 2: Corrige un texto aplicando APA." },
-          { "pregunta": "Actividad 3: Redacta un párrafo con 1 cita directa y 1 paráfrasis." },
-          { "pregunta": "Actividad 4: ¿El exceso de citas debilita la voz del autor?" }
-        ],
-        "recursos": [
-          {"tipo": "video", "url": "https://www.youtube.com/watch?v=qXm9d_sQlFk", "titulo": "Normas APA"}
-        ],
-        "quiz": [
-          {
-            "pregunta": "La paráfrasis correcta consiste en:",
-            "opciones": ["Copiar textual", "Reescribir con palabras propias citando la fuente", "Resumir sin citar"],
-            "correcta": 1
-          }
-        ]
+        "titulo": "Escritura Académica y APA",
+        "descripcion": "Intertextualidad.",
+        "material_texto": "Cómo dialogar con fuentes.",
+        "actividades": [ { "pregunta": "1. Aplica APA." } ],
+        "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ]
       },
       {
         "id": 6,
-        "titulo": "Oralidad y Retórica Contemporánea",
-        "descripcion": "Construcción de discursos persuasivos.",
-        "material_texto": "El arte de construir discursos eficaces en el siglo XXI.",
-        "actividades": [
-          { "pregunta": "1. Identificación retórica: Ethos, pathos, logos." },
-          { "pregunta": "2. Análisis retórico de un texto." },
-          { "pregunta": "3. Producción oral (2-3 minutos)." },
-          { "pregunta": "4. Debate: ¿Persuasión vs Objetividad?" }
-        ],
-        "recursos": [
-          {"tipo": "video", "url": "https://www.youtube.com/watch?v=VjV98Nl_veQ", "titulo": "Retórica"}
-        ],
-        "quiz": [
-          {
-            "pregunta": "El 'Ethos' se refiere a:",
-            "opciones": ["Emociones", "Lógica", "Credibilidad del orador"],
-            "correcta": 2
-          }
-        ]
+        "titulo": "Oralidad y Retórica",
+        "descripcion": "Discursos persuasivos.",
+        "material_texto": "Ethos, pathos, logos.",
+        "actividades": [ { "pregunta": "1. Análisis retórico." } ],
+        "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ]
       },
       {
         "id": 7,
-        "titulo": "La palabra que hace falta: Ética y Construcción Social",
-        "descripcion": "El lenguaje como constructor de realidad.",
-        "material_texto": "Las palabras no solo describen el mundo, lo configuran.",
-        "actividades": [
-          { "pregunta": "Actividad 1: Análisis crítico sobre generalizaciones." },
-          { "pregunta": "Actividad 2: Reformulación ética." },
-          { "pregunta": "Actividad 3: Debate sobre neutralidad del lenguaje." },
-          { "pregunta": "Actividad 4: Producción con lenguaje inclusivo." }
-        ],
-        "recursos": [
-          {"tipo": "articulo", "url": "https://elpais.com/america/opinion/2021-10-30/el-poder-de-las-palabras.html", "titulo": "Poder de las palabras"}
-        ],
-        "quiz": [
-          {
-            "pregunta": "El concepto invita a reflexionar sobre:",
-            "opciones": ["Gramática", "Responsabilidad ética", "Ortografía"],
-            "correcta": 1
-          }
-        ]
+        "titulo": "Ética y Construcción Social",
+        "descripcion": "Lenguaje y realidad.",
+        "material_texto": "Las palabras configuran el mundo.",
+        "actividades": [ { "pregunta": "1. Análisis ético." } ],
+        "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ]
       }
     ]
+  },
+  {
+    "id": "intro-vida-universitaria",
+    "nombre": "Introducción a la vida universitaria",
+    "creditos": 2,
+    "temas": [ { "id": 1, "titulo": "Autonomía", "material_texto": "Auto-planificación.", "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ] } ]
+  },
+  {
+    "id": "pensamiento-numerico",
+    "nombre": "Pensamiento numérico",
+    "creditos": 2,
+    "temas": [ { "id": 1, "titulo": "Estadística", "material_texto": "Media, moda.", "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ] } ]
+  },
+  {
+    "id": "comunicacion-estrategica",
+    "nombre": "Comunicación Estratégica",
+    "creditos": 2,
+    "temas": [ { "id": 1, "titulo": "Modelos", "material_texto": "Lineal vs Circular.", "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ] } ]
+  },
+  {
+    "id": "diseno-visual",
+    "nombre": "Diseño visual",
+    "creditos": 2,
+    "temas": [ { "id": 1, "titulo": "Color", "material_texto": "Psicología.", "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ] } ]
+  },
+  {
+    "id": "fotografia",
+    "nombre": "Fotografía",
+    "creditos": 2,
+    "temas": [ { "id": 1, "titulo": "Exposición", "material_texto": "ISO, Diafragma.", "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ] } ]
+  },
+  {
+    "id": "teorias-campos",
+    "nombre": "Teorías de la comunicación",
+    "creditos": 2,
+    "temas": [ { "id": 1, "titulo": "Frankfurt", "material_texto": "Industria cultural.", "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ] } ]
+  },
+  {
+    "id": "tecnica-herramientas-1",
+    "nombre": "Técnica y herramientas 1",
+    "creditos": 1,
+    "temas": [ { "id": 1, "titulo": "Google Académico", "material_texto": "Booleanos.", "quiz": [ { "pregunta": "Test", "opciones": ["A", "B"], "correcta": 0 } ] } ]
   }
 ]
