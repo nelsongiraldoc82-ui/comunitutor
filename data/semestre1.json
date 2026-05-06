@@ -7,17 +7,24 @@
       {
         "id": 1,
         "titulo": "Introducción al lenguaje universitario",
-        "descripcion": "Transformación epistemológica y rigor discursivo.",
-        "material_texto": "Ingresar a la educación superior no implica simplemente un cambio de entorno, sino una ruptura epistemológica con el saber escolar. En el colegio, el estudiante es un receptor de verdades cerradas; en la universidad, se convierte en un sujeto productor de sentido.\n\nEl lenguaje universitario no es una jerga oscura, sino un registro discursivo propio de la comunidad académica. Su fundamento es la argumentación rigurosa: toda afirmación debe estar sustentada en evidencia empírica o en diálogo con autores autorizados. Aquí, la opinión cede ante la postura crítica, y la memorización es reemplazada por la capacidad de problematizar la realidad. Escribir en la universidad es intervenir en una conversación intelectual que comenzó mucho antes de que llegáramos.",
+        "descripcion": "Incorporación a la comunidad discursiva académica.",
+        "material_texto": "Ingresar a la universidad no solo implica nuevos contenidos, sino incorporarse a una comunidad discursiva con normas, géneros y prácticas comunicativas propias. El lenguaje universitario es una herramienta cognitiva: no solo comunica ideas, sino que construye conocimiento.",
+        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Introducción al lenguaje universitario.pdf",
+        "actividades": [
+          { "pregunta": "1. Reescritura: Transforma en lenguaje académico la siguiente frase: «Hoy en día la gente usa mucho el móvil y eso es malo para estudiar.»" },
+          { "pregunta": "2. Análisis: Identifica tesis, argumentos y tipo de lenguaje en el siguiente texto: «El desarrollo de competencias digitales en estudiantes universitarios resulta fundamental…»" },
+          { "pregunta": "3. Debate: ¿El lenguaje académico limita la creatividad o la potencia? Argumenta tu posición." },
+          { "pregunta": "4. Producción breve: Escribe un párrafo (5–7 líneas) con 1 tesis clara, 2 conectores lógicos y lenguaje formal." }
+        ],
         "recursos": [
           {"tipo": "articulo", "url": "https://es.wikipedia.org/wiki/Comunidad_acad%C3%A9mica", "titulo": "Concepto de Comunidad Académica"}
         ],
         "quiz": [
           {
-            "pregunta": "La diferencia fundamental entre la escritura escolar y la académica radica en:",
-            "opciones": ["La extensión del texto y la caligrafía", "La capacidad de argumentar basándose en un interlocutor experto y fuentes válidas", "El uso de vocabulario complejo sin sentido", "La copia textual de libros"],
+            "pregunta": "Según la introducción, el lenguaje universitario se define principalmente como:",
+            "opciones": ["Un conjunto de palabras difíciles", "Una herramienta cognitiva que construye conocimiento", "Una barrera para los nuevos estudiantes", "Un método de exclusión social"],
             "correcta": 1,
-            "explicacion": "La escritura académica se distingue por la legitimidad de sus fuentes y la estructura argumentativa, no por la complejidad superficial."
+            "explicacion": "El texto afirma que el lenguaje universitario es una herramienta cognitiva que no solo comunica, sino que construye conocimiento."
           }
         ]
       },
@@ -25,7 +32,7 @@
         "id": 2,
         "titulo": "Comprensión Lectora: Hermenéutica y Niveles de Sentido",
         "descripcion": "De la decodificación a la interpretación crítica.",
-        "material_texto": "Leer en la universidad es un ejercicio hermenéutico. No basta con el nivel literal (lo que el texto dice); es necesario acceder al nivel inferencial (lo que el texto sugiere mediante presuposiciones) y, crucialmente, al nivel crítico-intertextual, donde el lector contrasta el texto con otros discursos y descubre su polifonía (la presencia de múltiples voces en un enunciado).\n\nUn comunicador social debe aprender a leer los silencios del texto: ¿Qué se omite? ¿Qué sujeto está ausente? La lectura es, ante todo, una práctica de poder y resistencia.",
+        "material_texto": "Leer en la universidad es un ejercicio hermenéutico. No basta con el nivel literal (lo que el texto dice); es necesario acceder al nivel inferencial (lo que el texto sugiere mediante presuposiciones) y, crucialmente, al nivel crítico-intertextual, donde el lector contrasta el texto con otros discursos y descubre su polifonía.\n\nUn comunicador social debe aprender a leer los silencios del texto: ¿Qué se omite? ¿Qué sujeto está ausente? La lectura es, ante todo, una práctica de poder y resistencia.",
         "recursos": [
           {"tipo": "video", "url": "https://www.youtube.com/watch?v=HRFPp9e2UsY", "titulo": "Niveles de lectura y hermenéutica"}
         ],
@@ -60,6 +67,7 @@
         "titulo": "Argumentación y Falacias",
         "descripcion": "Lógica informal y pensamiento crítico aplicado.",
         "material_texto": "Argumentar no es pelear ni persuadir a cualquier costo. Es un acto racional de dar razones para sostener una tesis. El comunicador debe identificar falacias lógicas (errores de razonamiento) que deforman el debate público.\n\nEjemplos comunes: Ad Hominem (atacar al oponente, no su idea), Falsa Causalidad (confundir correlación con causa), o Ad Populum (creer algo porque la mayoría lo cree). Una argumentación sólida exige coherencia interna y solidez en las premisas.",
+        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Argumentación y Falacias.pdf",
         "recursos": [
           {"tipo": "video", "url": "https://www.youtube.com/watch?v=Ohzvu-nkM0g", "titulo": "Falacias argumentativas"}
         ],
@@ -93,7 +101,7 @@
         "id": 6,
         "titulo": "Oralidad y Retórica Contemporánea",
         "descripcion": "El cuerpo, la voz y la persuasión.",
-        "material_texto": "La comunicación oral en la universidad supera la mera exposición. Se basa en la retórica: el arte de convencer mediante el ethos (credibilidad del orador), el pathos (emoción de la audiencia) y el logos (razonamiento).\n\nLa comunicación no verbal (kinesis y proxémica) constituye gran parte del mensaje. Un comunicador debe tener coherencia entre su discurso verbal y su corporalidad. La escucha activa, a menudo ignorada, es la competencia base: implica descodificar al otro desde la empatía, no desde la réplica inmediata.",
+        "material_texto": "La comunicación oral en la universidad supera la mera exposición. Se basa en la retórica: el arte de convencer mediante el ethos (credibilidad del orador), el pathos (emoción de la audiencia) y el logos (razonamiento).\n\nLa comunicación no verbal (kinesis y proxémica) constituye gran parte del mensaje. Un comunicador debe tener coherencia entre su discurso verbal y su corporalidad. La escucha activa, a menudo ignorada, es la competencia base.",
         "recursos": [
           {"tipo": "video", "url": "https://www.youtube.com/watch?v=VjV98Nl_veQ", "titulo": "Retórica y Comunicación No Verbal"}
         ],
