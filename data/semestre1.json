@@ -272,7 +272,7 @@
         "descripcion": "Razonamiento lógico.",
         "material_texto": "Identificar falacias lógicas (ej. Ad Hominem: atacar a la persona).",
         "recursos": [
-          {"tipo": "video", "url": "https://www.youtube.com/watch?v=Ohzvu-nkM0g", "titulo": "Falacias lógicas"}
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=Ohzvu-nkM0g", "titulo": "Falacies lógicas"}
         ],
         "quiz": [
           {
