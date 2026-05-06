@@ -50,7 +50,8 @@ function ActivitySection({ activities, context }: { activities: Actividad[]; con
   const [feedback, setFeedback] = useState<Message | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  const currentActivity = activities[currentActivity];
+  // CORRECCIÓN AQUÍ: Usar currentIndex
+  const currentActivity = activities[currentIndex];
 
   const handleSubmitActivity = async (e: FormEvent) => {
     e.preventDefault();
@@ -343,7 +344,7 @@ export default function Home() {
         )}
       </main>
 
-      {/* MODAL DE LECCIÓN (PDF, TEXTO, ACTIVIDADES, CHAT) */}
+      {/* MODAL DE LECCIÓN */}
       {modal?.type === 'lesson' && (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4 z-50 overflow-y-auto">
           <div className="bg-white rounded-2xl w-full max-w-4xl max-h-[90vh] overflow-hidden flex flex-col relative shadow-2xl">
