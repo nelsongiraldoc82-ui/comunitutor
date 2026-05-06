@@ -33,7 +33,6 @@
         "titulo": "Comprensión Lectora: Hermenéutica y Niveles de Sentido",
         "descripcion": "De la decodificación a la interpretación crítica.",
         "material_texto": "La comprensión lectora en el ámbito universitario va mucho más allá de «entender lo que dice un texto». Implica interpretar, analizar críticamente y construir sentido a partir de lo leído. En este proceso, la hermenéutica (la disciplina que estudia la interpretación) se convierte en un marco fundamental.",
-        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Comprensión Lectora y Hermenéutica.pdf",
         "actividades": [
           { "pregunta": "1. Identificación de niveles: Texto: «La educación moderna enfrenta desafíos derivados del avance tecnológico.» Identifica el nivel literal, inferencial y crítico del texto propuesto." },
           { "pregunta": "2. Análisis hermenéutico: Texto: «En la sociedad contemporánea, la sobreabundancia de información no garantiza una comprensión profunda...» Responde: ¿Cuál es la tesis? ¿Qué presupuestos implícitos contiene? ¿Qué papel se le atribuye al lector? ¿Qué interpretación harías desde tu contexto?" },
@@ -57,7 +56,6 @@
         "titulo": "Géneros discursivos académicos",
         "descripcion": "Contexto de producción, circulación y legitimación.",
         "material_texto": "En el ámbito universitario, el conocimiento no solo se adquiere: se comunica, se organiza y se legitima a través de formas discursivas específicas. Dominar estos géneros es fundamental para integrarse a la cultura académica.",
-        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Generos discursivos academicos.pdf",
         "actividades": [
           { "pregunta": "1. Clasificación: Identifica el género del siguiente texto: \"El libro presenta una visión crítica sobre la educación contemporánea…\" ¿Qué elementos textuales te permiten identificarlo?" },
           { "pregunta": "2. Análisis: Texto: \"Este artículo examina la relación entre el uso de tecnologías digitales y el aprendizaje autónomo en estudiantes universitarios, a partir de un estudio basado en encuestas y análisis estadístico.\" ¿Cuál es el género? ¿Qué características lo evidencian? ¿Cuál es su propósito comunicativo?" },
@@ -81,7 +79,6 @@
         "titulo": "Argumentación y Falacias",
         "descripcion": "Guía esencial para el pensamiento crítico universitario.",
         "material_texto": "Una guía esencial para el pensamiento crítico universitario — desde la estructura del argumento hasta la identificación de errores de razonamiento.",
-        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Argumentación y Falacias.pdf",
         "actividades": [
           { "pregunta": "Actividad 1: Identificación de estructura. Texto: \"Todos los seres humanos necesitan educación. Juan es humano.\" → Identifica las premisas y la conclusión implícita." },
           { "pregunta": "Actividad 2: Detección de falacias. Texto: \"No deberíamos implementar ese sistema educativo porque fue diseñado por personas que nunca han enseñado en aulas reales.\" → ¿Qué tipo de falacia aparece? ¿Por qué es incorrecta? ¿Cómo se reformularía correctamente?" },
@@ -105,7 +102,6 @@
         "titulo": "Escritura Académica: Intertextualidad y Normativa APA",
         "descripcion": "Pilares de la producción académica.",
         "material_texto": "Un recorrido por los pilares fundamentales de la producción académica: cómo dialogar con el conocimiento existente, integrar fuentes con rigor y citar correctamente siguiendo el estilo APA.",
-        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Escritura Academica Intertextualidad y Normativa APA.pdf",
         "actividades": [
           { "pregunta": "Actividad 1: Identificación. Lee los fragmentos propuestos y determina si cada uno corresponde a una cita directa, una paráfrasis o un resumen. Justifica tu respuesta." },
           { "pregunta": "Actividad 2: Corrección. Mejora el siguiente texto incorporando una cita en formato APA: \"La escritura académica es importante porque lo dicen muchos autores.\"" },
@@ -129,7 +125,6 @@
         "titulo": "Oralidad y Retórica Contemporánea",
         "descripcion": "Construcción de discursos persuasivos en el siglo XXI.",
         "material_texto": "El arte de construir discursos eficaces, estructurados y persuasivos en contextos académicos y profesionales del siglo XXI.",
-        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Oralidad y Retorica Contemporanea.pdf",
         "actividades": [
           { "pregunta": "1. Identificación retórica: Analiza el enunciado: \"El cambio climático es el mayor desafío de nuestro tiempo.\" Identifica qué elementos de ethos, pathos o logos están presentes y justifica tu respuesta." },
           { "pregunta": "2. Análisis retórico: Texto: \"No podemos seguir ignorando el impacto de nuestras acciones en el medio ambiente, porque cada decisión que tomamos hoy define el futuro de las próximas generaciones.\" ¿Qué tipo de apelación predomina? ¿Qué efecto busca generar en la audiencia? ¿Cómo influye el lenguaje utilizado?" },
@@ -153,7 +148,6 @@
         "titulo": "La palabra que hace falta: Ética y Construcción Social",
         "descripcion": "El lenguaje como constructor de realidad social.",
         "material_texto": "El lenguaje no es un simple medio de comunicación: es una herramienta fundamental en la construcción de la realidad social. Las palabras que usamos no solo describen el mundo, sino que lo configuran, lo legitiman o lo cuestionan.",
-        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/La palabra que hace falta.pdf",
         "actividades": [
           { "pregunta": "Actividad 1: Análisis crítico. Texto: 'La juventud actual no tiene valores.' ¿Qué presupuestos contiene? ¿Es una generalización? ¿Qué implicaciones éticas tiene?" },
           { "pregunta": "Actividad 2: Reformulación. Reescribe de manera ética: 'Los pobres no trabajan lo suficiente.' Aplica lenguaje inclusivo y argumentación ética." },
@@ -272,7 +266,7 @@
         "descripcion": "Razonamiento lógico.",
         "material_texto": "Identificar falacias lógicas (ej. Ad Hominem: atacar a la persona).",
         "recursos": [
-          {"tipo": "video", "url": "https://www.youtube.com/watch?v=Ohzvu-nkM0g", "titulo": "Falacies lógicas"}
+          {"tipo": "video", "url": "https://www.youtube.com/watch?v=Ohzvu-nkM0g", "titulo": "Falacias lógicas"}
         ],
         "quiz": [
           {
