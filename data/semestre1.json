@@ -32,7 +32,14 @@
         "id": 2,
         "titulo": "Comprensión Lectora: Hermenéutica y Niveles de Sentido",
         "descripcion": "De la decodificación a la interpretación crítica.",
-        "material_texto": "Leer en la universidad es un ejercicio hermenéutico. No basta con el nivel literal (lo que el texto dice); es necesario acceder al nivel inferencial (lo que el texto sugiere mediante presuposiciones) y, crucialmente, al nivel crítico-intertextual, donde el lector contrasta el texto con otros discursos y descubre su polifonía.\n\nUn comunicador social debe aprender a leer los silencios del texto: ¿Qué se omite? ¿Qué sujeto está ausente? La lectura es, ante todo, una práctica de poder y resistencia.",
+        "material_texto": "La comprensión lectora en el ámbito universitario va mucho más allá de «entender lo que dice un texto». Implica interpretar, analizar críticamente y construir sentido a partir de lo leído. En este proceso, la hermenéutica (la disciplina que estudia la interpretación) se convierte en un marco fundamental.",
+        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Comprensión Lectora y Hermenéutica.pdf",
+        "actividades": [
+          { "pregunta": "1. Identificación de niveles: Texto: «La educación moderna enfrenta desafíos derivados del avance tecnológico.» Identifica el nivel literal, inferencial y crítico del texto propuesto." },
+          { "pregunta": "2. Análisis hermenéutico: Texto: «En la sociedad contemporánea, la sobreabundancia de información no garantiza una comprensión profunda...» Responde: ¿Cuál es la tesis? ¿Qué presupuestos implícitos contiene? ¿Qué papel se le atribuye al lector? ¿Qué interpretación harías desde tu contexto?" },
+          { "pregunta": "3. Debate: ¿La interpretación de un texto puede ser completamente objetiva? Argumenta tu posición con ejemplos concretos y fundamento textual." },
+          { "pregunta": "4. Producción escrita: Escribe un párrafo interpretativo de 6-8 líneas sobre un texto académico breve, aplicando al menos 1 inferencia y 1 valoración crítica." }
+        ],
         "recursos": [
           {"tipo": "video", "url": "https://www.youtube.com/watch?v=HRFPp9e2UsY", "titulo": "Niveles de lectura y hermenéutica"}
         ],
@@ -49,7 +56,14 @@
         "id": 3,
         "titulo": "Géneros discursivos académicos",
         "descripcion": "Contexto de producción, circulación y legitimación.",
-        "material_texto": "La academia no produce textos 'sueltos', sino géneros que responden a reglas específicas de circulación. El artículo de investigación, el estado del arte y el ensayo argumentativo se diferencian por su intención comunicativa y su estructura.\n\nEs vital analizar el contexto de producción: ¿Quién es el enunciador? ¿Cuál es su etos? ¿En qué comunidad discursiva se inserta? Un texto cambia de sentido si se publica en un blog personal o en una revista indexada. La circulación define la legitimidad del saber.",
+        "material_texto": "En el ámbito universitario, el conocimiento no solo se adquiere: se comunica, se organiza y se legitima a través de formas discursivas específicas. Dominar estos géneros es fundamental para integrarse a la cultura académica.",
+        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Generos discursivos academicos.pdf",
+        "actividades": [
+          { "pregunta": "1. Clasificación: Identifica el género del siguiente texto: \"El libro presenta una visión crítica sobre la educación contemporánea…\" ¿Qué elementos textuales te permiten identificarlo?" },
+          { "pregunta": "2. Análisis: Texto: \"Este artículo examina la relación entre el uso de tecnologías digitales y el aprendizaje autónomo en estudiantes universitarios, a partir de un estudio basado en encuestas y análisis estadístico.\" ¿Cuál es el género? ¿Qué características lo evidencian? ¿Cuál es su propósito comunicativo?" },
+          { "pregunta": "3. Producción: Escribe un párrafo breve en formato de ensayo o informe sobre un tema de tu disciplina. Aplica las convenciones del género elegido." },
+          { "pregunta": "4. Reflexión crítica: ¿Todos los géneros académicos permiten expresar opinión? Justifica tu respuesta con ejemplos concretos de al menos dos géneros distintos." }
+        ],
         "recursos": [
           {"tipo": "articulo", "url": "https://es.wikipedia.org/wiki/G%C3%A9nero_discursivo", "titulo": "Teoría de los Géneros Discursivos"}
         ],
@@ -65,9 +79,15 @@
       {
         "id": 4,
         "titulo": "Argumentación y Falacias",
-        "descripcion": "Lógica informal y pensamiento crítico aplicado.",
-        "material_texto": "Argumentar no es pelear ni persuadir a cualquier costo. Es un acto racional de dar razones para sostener una tesis. El comunicador debe identificar falacias lógicas (errores de razonamiento) que deforman el debate público.\n\nEjemplos comunes: Ad Hominem (atacar al oponente, no su idea), Falsa Causalidad (confundir correlación con causa), o Ad Populum (creer algo porque la mayoría lo cree). Una argumentación sólida exige coherencia interna y solidez en las premisas.",
+        "descripcion": "Guía esencial para el pensamiento crítico universitario.",
+        "material_texto": "Una guía esencial para el pensamiento crítico universitario — desde la estructura del argumento hasta la identificación de errores de razonamiento.",
         "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Argumentación y Falacias.pdf",
+        "actividades": [
+          { "pregunta": "Actividad 1: Identificación de estructura. Texto: \"Todos los seres humanos necesitan educación. Juan es humano.\" → Identifica las premisas y la conclusión implícita." },
+          { "pregunta": "Actividad 2: Detección de falacias. Texto: \"No deberíamos implementar ese sistema educativo porque fue diseñado por personas que nunca han enseñado en aulas reales.\" → ¿Qué tipo de falacia aparece? ¿Por qué es incorrecta? ¿Cómo se reformularía correctamente?" },
+          { "pregunta": "Actividad 3: Construcción de argumento. Escribe un argumento sobre \"La importancia de la lectura en la universidad\" que incluya: 1 tesis, 2 premisas y conectores lógicos." },
+          { "pregunta": "Actividad 4: Análisis crítico. Reflexión abierta: ¿Es posible argumentar sin persuadir? Justifica tu respuesta con ejemplos concretos." }
+        ],
         "recursos": [
           {"tipo": "video", "url": "https://www.youtube.com/watch?v=Ohzvu-nkM0g", "titulo": "Falacias argumentativas"}
         ],
@@ -83,8 +103,15 @@
       {
         "id": 5,
         "titulo": "Escritura Académica: Intertextualidad y Normativa APA",
-        "descripcion": "La ética de la citación y la construcción del texto propio.",
-        "material_texto": "Ningún texto académico nace de la nada; es un tejido de citas y referencias. La intertextualidad es el diálogo explícito con otros autores. El uso de normas (como APA o Chicago) no es un mero trámite burocrático, sino una práctica ética de reconocimiento.\n\nEl plagio no es solo copiar y pegar; es el robo de la autoría intelectual. Un buen escritor académico integra la voz ajena en su propia voz (estilo indirecto, paráfrasis) sin perder el hilo conductor de su propia tesis.",
+        "descripcion": "Pilares de la producción académica.",
+        "material_texto": "Un recorrido por los pilares fundamentales de la producción académica: cómo dialogar con el conocimiento existente, integrar fuentes con rigor y citar correctamente siguiendo el estilo APA.",
+        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Escritura Academica Intertextualidad y Normativa APA.pdf",
+        "actividades": [
+          { "pregunta": "Actividad 1: Identificación. Lee los fragmentos propuestos y determina si cada uno corresponde a una cita directa, una paráfrasis o un resumen. Justifica tu respuesta." },
+          { "pregunta": "Actividad 2: Corrección. Mejora el siguiente texto incorporando una cita en formato APA: \"La escritura académica es importante porque lo dicen muchos autores.\"" },
+          { "pregunta": "Actividad 3: Aplicación. Redacta un párrafo académico que incluya 1 cita directa, 1 paráfrasis y el formato APA correcto en ambos casos." },
+          { "pregunta": "Actividad 4: Análisis crítico. Reflexiona y responde: ¿El uso excesivo de citas debilita la voz del autor? Argumenta tu postura con ejemplos concretos." }
+        ],
         "recursos": [
           {"tipo": "video", "url": "https://www.youtube.com/watch?v=qXm9d_sQlFk", "titulo": "Ética y Normas APA"}
         ],
@@ -100,8 +127,15 @@
       {
         "id": 6,
         "titulo": "Oralidad y Retórica Contemporánea",
-        "descripcion": "El cuerpo, la voz y la persuasión.",
-        "material_texto": "La comunicación oral en la universidad supera la mera exposición. Se basa en la retórica: el arte de convencer mediante el ethos (credibilidad del orador), el pathos (emoción de la audiencia) y el logos (razonamiento).\n\nLa comunicación no verbal (kinesis y proxémica) constituye gran parte del mensaje. Un comunicador debe tener coherencia entre su discurso verbal y su corporalidad. La escucha activa, a menudo ignorada, es la competencia base.",
+        "descripcion": "Construcción de discursos persuasivos en el siglo XXI.",
+        "material_texto": "El arte de construir discursos eficaces, estructurados y persuasivos en contextos académicos y profesionales del siglo XXI.",
+        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/Oralidad y Retorica Contemporanea.pdf",
+        "actividades": [
+          { "pregunta": "1. Identificación retórica: Analiza el enunciado: \"El cambio climático es el mayor desafío de nuestro tiempo.\" Identifica qué elementos de ethos, pathos o logos están presentes y justifica tu respuesta." },
+          { "pregunta": "2. Análisis retórico: Texto: \"No podemos seguir ignorando el impacto de nuestras acciones en el medio ambiente, porque cada decisión que tomamos hoy define el futuro de las próximas generaciones.\" ¿Qué tipo de apelación predomina? ¿Qué efecto busca generar en la audiencia? ¿Cómo influye el lenguaje utilizado?" },
+          { "pregunta": "3. Producción oral: Prepara una exposición breve (2–3 minutos) sobre \"La importancia de la educación universitaria\". Debe incluir: Introducción clara y atractiva, 2 argumentos bien desarrollados, Uso de al menos 1 recurso retórico." },
+          { "pregunta": "4. Reflexión crítica: Debate abierto: ¿La persuasión en el discurso académico es compatible con la objetividad? Argumenta tu posición con ejemplos concretos del ámbito universitario o profesional." }
+        ],
         "recursos": [
           {"tipo": "video", "url": "https://www.youtube.com/watch?v=VjV98Nl_veQ", "titulo": "Retórica y Comunicación No Verbal"}
         ],
@@ -117,8 +151,15 @@
       {
         "id": 7,
         "titulo": "La palabra que hace falta: Ética y Construcción Social",
-        "descripcion": "Responsabilidad del comunicador en la sociedad.",
-        "material_texto": "El título de este curso apela a una ética de la palabra. El lenguaje no es inocente; la palabra nombra el mundo y por tanto lo crea. En un contexto de posverdad y desinformación, el comunicador tiene la responsabilidad de restituir el valor de la palabra verdadera.\n\n¿Qué palabras faltan en los medios? Las voces de las minorías, los relatos de paz, la memoria histórica. La comunicación social es, en esencia, una praxis política de construcción de comunidad y ciudadanía.",
+        "descripcion": "El lenguaje como constructor de realidad social.",
+        "material_texto": "El lenguaje no es un simple medio de comunicación: es una herramienta fundamental en la construcción de la realidad social. Las palabras que usamos no solo describen el mundo, sino que lo configuran, lo legitiman o lo cuestionan.",
+        "pdf_url": "/pdfs/SEMESTRE 1/Lectura, escritura y oralidad 1 La palabra que hace falta/La palabra que hace falta.pdf",
+        "actividades": [
+          { "pregunta": "Actividad 1: Análisis crítico. Texto: 'La juventud actual no tiene valores.' ¿Qué presupuestos contiene? ¿Es una generalización? ¿Qué implicaciones éticas tiene?" },
+          { "pregunta": "Actividad 2: Reformulación. Reescribe de manera ética: 'Los pobres no trabajan lo suficiente.' Aplica lenguaje inclusivo y argumentación ética." },
+          { "pregunta": "Actividad 3: Debate. ¿El lenguaje puede ser completamente neutral? Argumenta tu postura con ejemplos concretos del entorno social y mediático." },
+          { "pregunta": "Actividad 4: Producción escrita. Escribe un párrafo (6–8 líneas) sobre un tema social aplicando: Lenguaje inclusivo y Argumentación ética." }
+        ],
         "recursos": [
           {"tipo": "articulo", "url": "https://elpais.com/america/opinion/2021-10-30/el-poder-de-las-palabras.html", "titulo": "Poder y Ética de las palabras"}
         ],
